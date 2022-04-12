@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background-color: whitesmoke;
+}
+
+head {
+  background-color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerDiv {
+  background-color: rgb(243, 79, 80);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 2px;
+  height: 100px;
+}
+
+.mainText {
+  color: whitesmoke;
+  font-family: 'Grape Nuts';
+  font-size: 40px;
+  padding-left: 7px;
+}
+
+.globeIcon {
+  width: 40px;
+  height: 100%;
+  padding-top: 0.5%;  
+}
+
+.headerMain {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.8%;
+}
+
+.img {
+  width: 200px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.compDiv {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  width: 60%;
+  height: 400px;
+  border-bottom: 0.5px inset lightgray;
+}
+
+.info {
+  margin-left: 50px;
+  margin-top: 22px;
+}
+
+.info--lokacija {
+  font-size: 40px;
+  font-family: 'Roboto';
+  margin-top: 15px;
+
+}
+
+.info--lokacijaDrzava {
+  font-family: 'Roboto';
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.gpsIcon {
+  width: 20px;
+}
+
+.gpsAndCountry {
+  display: flex;
+}
+
+.gmLink {
+  margin-left: 35px;
+  color: gray;
+  font-family: 'Roboto';
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.stayDate {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.description {
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(243, 79, 80);
+  margin: 2px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
