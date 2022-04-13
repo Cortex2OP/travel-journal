@@ -1,5 +1,4 @@
-was bored, made this in 2 hours using react.
-components weren't hardcoded, but dynamically rendered using some data from a source.
+made this in a couple of hours using react as practice for more dynamic data rendering from external sources.
 
 https://sanjin-pajic.github.io/travel-journal
 
